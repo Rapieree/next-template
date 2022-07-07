@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint.fix": "next lint --fix"
   },
   "dependencies": {
     "next": "12.2.0",
@@ -15,6 +16,10 @@
   },
   "devDependencies": {
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0"
+    "eslint-config-htmlacademy": "5.0.0",
+    "eslint-config-next": "12.2.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jest": "26.5.3",
+    "jest": "28.1.2"
   }
 }
